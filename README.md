@@ -24,5 +24,21 @@ The configuration file can be as follows:<br>
 </code>
 </pre>
 </p>
+You can upload your release during the development to test it using the following commands:<br>
+<pre>
+<code>
+bosh create-release --force
+bosh upload-release
+</code>
+</pre>
+<br>
+You can publish your release after having finished it using commands as follows:<br>
+<pre>
+<code>
+bosh create-release --final [--version=1.0.0 --tarball=./run-script-1.0.0.tgz]
+bosh upload-release ./run-script-1.0.0.tgz
+</code>
+</pre>
+
 Author: Denis Baltor<br>
 Date : 28.02.2020
