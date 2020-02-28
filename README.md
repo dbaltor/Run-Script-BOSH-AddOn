@@ -5,6 +5,9 @@ This is a BOSH release skeleton made up of a single script file to execute righ
 Author: Denis Baltor<br>
 Date : 28.02.2020<br>
 </p>
+<p>
+The script to run is the <code>./jobs/run-script/templates/run.sh</code> file.<br>
+</p>
 You can upload your release during the development to test it using the following commands:<br>
 <pre>
 <code>
