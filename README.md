@@ -21,7 +21,7 @@ bosh upload-release ./run-script-1.0.0.tgz
 </code>
 </pre>
 <br>
-It is to execute on every BOSH-deployed VM as an Add-On.<br>
+It will be executed on every BOSH-deployed VM as an Add-On.<br>
 All required properties must be set using <code>bosh update-runtime-config &lt;config.yml&gt;</code><br>
 The configuration file can be as follows:<br>
 <strong>config.yml</strong><br>
