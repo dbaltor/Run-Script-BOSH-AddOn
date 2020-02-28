@@ -7,9 +7,9 @@ All required properties must be set using <code>bosh update-runtime-config &lt;c
 The configuration file can be as follows:<br>
 <strong>config.yml</strong><br>
 <code>
-	releases:<br>
-	- name: run-script<br>
-	  version: 1.0.0<br>
+	releases:
+	- name: run-script
+	  version: 1.0.0
 <br>
 	addons:
 	- name: one-time-script
