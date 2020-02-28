@@ -13,7 +13,7 @@ The configuration file can be as follows:<br>
 	  version: 1.0.0
 <br>
 	addons:
-	- name: one-time-script
+	- name: bosh-script
 	  jobs:
 	  - name: run-script
 	    release: run-script
