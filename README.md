@@ -29,7 +29,7 @@ The configuration file can be as follows:<br>
 <code>
 	releases:
 	- name: run-script
-	  version: &lt;the generated version number located on the <code>./releases/run-script/index.yml</code> file&gt;
+	  version: &lt;the generated version number located on the `./releases/run-script/index.yml` file&gt;
 <br>
 	addons:
 	- name: bosh-script
