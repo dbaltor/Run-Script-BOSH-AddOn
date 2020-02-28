@@ -6,6 +6,7 @@ It is to execute on every BOSH-deployed VM as an Add-On.<br>
 All required properties must be set using <code>bosh update-runtime-config &lt;config.yml&gt;</code><br>
 The configuration file can be as follows:<br>
 <strong>config.yml</strong><br>
+<pre>
 <code>
 	releases:
 	- name: run-script
@@ -21,6 +22,7 @@ The configuration file can be as follows:<br>
 	      PARAMETER_A: &lt;some.value&gt;
 	      PARAMETER_B: &lt;some.value&gt;
 </code>
+</pre>
 </p>
 Author: Denis Baltor<br>
 Date : 28.02.2020
