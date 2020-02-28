@@ -1,0 +1,16 @@
+---
+name: run-script
+
+templates:
+  run.sh: bin/post-deploy
+
+packages: []
+
+properties:
+  run-script:
+    PARAMETER_A:
+      description: Some parameter A.
+      default: ""
+    PARAMETER_B:
+      description: Some parameter B.
+      default: ""

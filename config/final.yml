@@ -1,0 +1,5 @@
+name: run-script
+blobstore:
+    provider: local
+    options:
+        blobstore_path: /tmp/run-script-blobs 
