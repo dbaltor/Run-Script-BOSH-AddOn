@@ -2,6 +2,9 @@ Run Script BOSH Add-On
 =======================
 This is a BOSH release skeleton made up of a single script file to execute right after the VM has been deployed. <br>
 <p>
+Author: Denis Baltor<br>
+Date : 28.02.2020<br>
+<p>
 It is to execute on every BOSH-deployed VM as an Add-On.<br>
 All required properties must be set using <code>bosh update-runtime-config &lt;config.yml&gt;</code><br>
 The configuration file can be as follows:<br>
@@ -39,6 +42,3 @@ bosh create-release --final [--version=1.0.0 --tarball=./run-script-1.0.0.tgz]
 bosh upload-release ./run-script-1.0.0.tgz
 </code>
 </pre>
-
-Author: Denis Baltor<br>
-Date : 28.02.2020
