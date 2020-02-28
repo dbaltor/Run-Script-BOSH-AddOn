@@ -7,10 +7,10 @@ All required properties must be set using <code>bosh update-runtime-config &lt;c
 The configuration file can be as follows:<br>
 <strong>config.yml</strong><br>
 <code>
-	releases:
-	- name: run-script
-	  version: 1.0.0
-
+	releases:<br>
+	- name: run-script<br>
+	  version: 1.0.0<br>
+<br>
 	addons:
 	- name: one-time-script
 	  jobs:
@@ -18,7 +18,7 @@ The configuration file can be as follows:<br>
 	    release: run-script
 	  properties:
 	    run-script:
-	      PARAMETER_A: &ltsome.value&gt;
+	      PARAMETER_A: &lt;some.value&gt;
 	      PARAMETER_B: &lt;some.value&gt;
 </code>
 </p>
